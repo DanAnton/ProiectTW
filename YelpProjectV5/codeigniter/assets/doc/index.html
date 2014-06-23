@@ -1,0 +1,140 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<title>Documentatie - Fisa Cerintelor</title>
+	
+	<link rel="stylesheet" href="css/style.css" media="all" />
+	<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700' rel='stylesheet' type='text/css' />
+	
+	<script src="js/jquery.1.6.4.js"></script>
+	
+	<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	
+	
+	<script>document.createElement('section');var duration=500,easing='swing';</script>
+	<script src="js/script.js"></script>
+	
+</head>
+<body>
+	<div id="main-wrapper">
+	
+		<div id="main" class="clearfix">
+			<aside id="sidebar" class="sidebar">
+				<div id="logo">
+					<img src="css/img/logo.png">
+				</div>
+				<ul id="doc-nav">
+					<li><a class="current" href="#home">Home</a></li>
+					<li><a href="#description">Description</a></li>
+					<li><a href="#functionalities">Functionalities</a></li>
+					<li><a href="#shareholders_interests">Shareholders & Interests</a></li>
+					<li><a href="#actors_objectives">Actors & Objectives</a></li>
+					<li><a href="#scenarios_of_use" class="parent">Scenarios of use</a>
+						<ul>
+							<li><a href="#element_1">The user creates an account</a></li>
+							<li><a href="#element_2">Searching for data</a></li>
+						</ul>
+					</li>
+					<li><a href="#developers">Developers</a></li>	
+				</ul>
+			</aside>
+			<div id="content">
+					
+				<section id="home">
+					<h3>Home</h3>
+			        <p>Yelp dataset a.k.a LocalSpot</p>
+				</section>
+				<section id="description">
+					<h3>Description</h3>
+			        <p>Information about businesses has a big impact on people now days because information is the power and when you have precise data you can control and make powerfull statistics about the future.</p>
+					<p>LocalSpot is a web application made to deliver users a representations of the yelp dataset. Once an application user logs in he can view  statistics of his own prefered bussineses. There is also a posibility to have guest users, but they will not have the feature of saving and track the statistics of different companies.</p>
+					<p>The statistics are displayed via charts in order to give the user proper information about different businesses and helps the user to make a prevision about the future of different business based on the information provided by the yelp dataset.</p>
+				</section>
+				<section id="functionalities">
+					<h3>Functionalities offered through the interface</h3>
+					<p>-	Login:  The user will be able to login in the application in order to track different businesses.</p>
+					<p>-	Logout: The user will be able to logout from the application whenever he wants to.</p>
+					<p>-	Charts: The user will be able to see the yelp dataset throught graphical charts.</p>
+					<p>-	Search: This option will allow the user to search throught the database for different businesses.</p>
+				</section>
+				<section id="shareholders_interests">
+					<h3>Shareholders & Interests</h3>
+					<p>User: the possibility to access all functions of the yelp web application without any problem.</p>
+					<p>Interface: to provide an intuitive user interaction with the application and to achieve efficient communication with the futures.</p>
+					<p>Integration: to receive the proper data from the yelp dataset.</p>
+					<p>Formatting: the possibility to provide a well structured information via charts.</p>
+				</section>
+				<section id="actors_objectives">
+					<h3>Actors & Objectives</h3>
+					<p>User: provides the possibility to view and store the preferred businesses.</p>
+					<p>Interface: provides a way of communication between the application functionality and the user.</p>
+					<p>Integration: provides a well structured data from the yelp dataset.</p>
+					<p>Formatting: provides an graphic representation of the data via charts.</p>
+
+				</section>
+				<section id="scenarios_of_use">
+					<h3>Scenarios of use</h3>
+					<p>The following scenarios describe how the application is used by the client:</p>
+					
+					<section id="element_1">
+						<h4>5.1 The user creates an account</h4>
+						<h4>5.1.1 Pressing the Sign Up button</h4>
+						<h5>5.1.1.1 Objective / Context</h5>
+
+						<p>The user uses the sign up button to make an account.</p>
+
+
+						<h5>5.1.1.2 Scenario / Steps</h5>
+
+						<p>1. Pressing the sign up button will open a new page with text inputs.</p>
+						<p>2. On the sign up page the user will have to put his desired information.</p>
+						<p>3. Pressing the Sign Up button, will cause the application to create a user and register him into the database.</p>
+								
+						<h5>5.1.1.3 Extensions</h5>
+
+						<p>If the user will not introduce a correct e-mail address he will be prompt with an error message telling him that the e-mail address entered is not valid.</p>
+							
+						<h4>	5.1.2 Pressing the Log in button</h4>
+
+						<h5>		5.1.2.1 Objective / Context</h5>
+
+						<p>The user may have the possibility to log out from the application.</p>
+
+						<h5>5.1.2.2 Scenario / Steps</h5>
+
+						<p>1. Pressing the log out button will cause the application to log out the user</p>
+						<p>2. The application will send the user to the main page of the application.</p>
+					</section>
+						
+					<section id="element_2">
+						<h4>5.2 Searching for data</h4>
+						<h5>	5.2.1 Objective / Context</h5>
+
+						<p>The user wants to search for data in yelp dataset.</p>
+
+						<h5>5.2.2 Scenario / Steps</h5>
+
+						<p>The user writes in the searching box the desired data and press enter.</p>
+
+						<h5>	5.2.3 Extensions</h5>
+
+						<p>In case the user is typing a random and difficult to decipher word then the search system will not display such information since it does not exist in the database.</p>
+					</section>
+
+				</section>
+				<section id="developers">
+					<h3>Developers</h3>
+					<p>Danut Anton</p>
+					<p>Alexandru Rapanu</p>
+					<p>Cosmin Ilioaia</p>
+				</section>
+				
+				
+			</div>
+		</div>
+	</div>
+</body>
+</html>
